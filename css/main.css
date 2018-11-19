@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #eee9de;
+  line-height: 1.5;
 
 }
 
@@ -28,4 +29,9 @@ a {
   font-family: Lato, sans-serif;
   font-weight: regular;
   color: #333;
+  border-style: solid;
+}
+
+div {
+  display: inline-block;
 }
