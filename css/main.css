@@ -2,7 +2,8 @@ html {
   box-sizing: border-box;
   background-color: #eee9de;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
