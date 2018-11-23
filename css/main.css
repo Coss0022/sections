@@ -2,8 +2,6 @@ html {
   box-sizing: border-box;
   background-color: #eee9de;
   line-height: 1.5;
-  text-align: center;
-  vertical-align: middle;
 }
 
 *, *::before, *::after {
@@ -15,6 +13,8 @@ h2 {
   color: #333;
   font-weight: bold;
   text-align: left;
+  vertical-align: middle;
+  margin: 0;
 }
 
 .btn:hover {
@@ -36,6 +36,8 @@ p {
   display: inline-block;
   padding: .4em .75em .5em;
   text-decoration: none;
+  border-radius: 8px;
+
 }
 
 div {
@@ -45,4 +47,13 @@ div {
 
 p {
   margin: 1.5rem;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
